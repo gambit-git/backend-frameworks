@@ -5,7 +5,9 @@
       "type": "node",
       "request": "launch",
       "name": "Depurar backend",
-      "program": "${workspaceFolder}/src/index.js",
+      "program": "${workspaceFolder}/task-manager-backend/src/index.ts",
+      "cwd": "${workspaceFolder}/task-manager-backend",
+      "runtimeArgs": ["--import", "tsx"],
       "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     }

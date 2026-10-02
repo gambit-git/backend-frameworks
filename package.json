@@ -22,6 +22,6 @@
     "dev": "node --watch src/index.js",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pnpm --dir task-manager-backend test"
   }
 }
