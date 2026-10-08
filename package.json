@@ -2,26 +2,31 @@
   "name": "backend-frameworks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.22.0",
+      "version": "^12.9.1",
       "onFail": "download"
     }
   },
   "type": "module",
   "devDependencies": {
-    "prettier": "^3.9.9"
+    "@types/node": "^26.6.4",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "serve": "node dist/index.js",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "test": "pnpm --dir task-manager-backend test"
+    "format:check": "prettier --check ."
   }
 }
