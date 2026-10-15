@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/api/tasks
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Documentar mi primera API\"\r
+
+    }"
+examples: ./.resources/02- crear tarea.resources/examples
+order: 1000

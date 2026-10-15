@@ -1,0 +1,7 @@
+workspace:
+  id: 33131f90-a8a7-474b-8701-e4d9937ea520
+cloudResources:
+  collections:
+    ../postman/collections/My Collection: 49284727-9c26738a-5e5f-4784-afc8-db1564759a76
+    ../postman/collections/Task API EC1 F3 A4: 49284727-8065f986-3f9d-435c-829c-d446e347ad8e
+    ../postman/collections/Task API - EC1 F3 A4: 49284727-10c59dde-2063-4257-9155-4fc7461d60e9

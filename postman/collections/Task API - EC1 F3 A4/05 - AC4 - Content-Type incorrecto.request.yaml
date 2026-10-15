@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:3000/api/tasks
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Prueba de Content-Type\"\r
+
+    }"
+order: 21000

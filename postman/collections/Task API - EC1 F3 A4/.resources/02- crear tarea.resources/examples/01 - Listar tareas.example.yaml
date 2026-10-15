@@ -1,0 +1,35 @@
+$kind: http-example
+request:
+  url: http://localhost:3000/api/tasks
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    x-powered-by: Express
+    content-type: application/json; charset=utf-8
+    content-length: "218"
+    etag: W/"da-bkF7/vImc7kxxw1EFCi1sQNXLz4"
+    date: Thu, 08 Oct 2026 06:30:15 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+  body:
+    type: json
+    content: |-
+      {
+        "data": [
+          {
+            "id": 1,
+            "title": "Configurar el proyecto backend",
+            "status": "completed",
+            "createdAt": "2026-10-08T05:49:18.297Z"
+          },
+          {
+            "id": 2,
+            "title": "Practicar TypeScript",
+            "status": "pending",
+            "createdAt": "2026-10-08T05:49:18.297Z"
+          }
+        ]
+      }
+order: 1000

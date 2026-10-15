@@ -1,0 +1,5 @@
+$kind: http-request
+name: GET - ID inválido
+url: http://localhost:3000/api/tasks/abc
+method: GET
+order: 15000

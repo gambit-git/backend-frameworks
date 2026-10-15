@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/api/tasks/2
+method: PATCH
+body:
+  type: json
+  content: "{\r\n  \"title\": \"\"\r\n}"
+order: 12000

@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Depurar backend",
+      "program": "${workspaceFolder}/task-manager-backend/src/index.ts",
+      "cwd": "${workspaceFolder}/task-manager-backend",
+      "runtimeArgs": ["--import", "tsx"],
+      "skipFiles": ["<node_internals>/**"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
